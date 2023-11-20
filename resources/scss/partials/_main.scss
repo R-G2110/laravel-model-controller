@@ -51,6 +51,9 @@ main {
                     padding: 10px;
                     overflow: auto;
                     position: relative;
+                    h4 {
+                        margin-bottom: 10px;
+                    }
                     &:hover .overlay{
                         position: absolute;
                         display: block;
@@ -64,18 +67,16 @@ main {
                         width: 100%;
                         padding: 10px;
                         background-color: black;
-                        .btn-watch {
-                            cursor: pointer;
-                            margin-top: 20px;
-                            &:hover {
-                                background-color: red;
-                                color: white;
-                            }
+                    }
+                    .btn-watch {
+                        cursor: pointer;
+                        margin-top: 20px;
+                        &:hover {
+                            background-color: red;
+                            color: white;
                         }
                     }
-                    .plot {
-                        margin-top: 10px;
-                    }
+
                 }
             }
         }

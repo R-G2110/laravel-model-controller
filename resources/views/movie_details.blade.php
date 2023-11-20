@@ -12,9 +12,9 @@
             <div class="right-card-info">
                 <div class="details">
                   <h4>{{ $movie->original_title }}</h4>
-                  <h4>{{ $movie->lang }}</h4>
-                  <h4>Released on: {{ $movie->date_released }}</h4>
-                  <h4>Ratings: {{ $movie->vote }}</h4>
+                  <h4>Language:  {{ $movie->lang }}</h4>
+                  <h4>Released on:  {{ $movie->date_released }}  </h4>
+                  <h4>Ratings:  {{ $movie->vote }}</h4>
                 </div>
                 <div class="overlay">
                     <a href="https://www.moviehive.lol/movie.html?id={{ $movie->movie_id }}">

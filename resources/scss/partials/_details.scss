@@ -34,6 +34,9 @@
             padding: 30px;
             overflow: auto;
             position: relative;
+            h4 {
+                margin-bottom: 7px;
+            }
             &:hover .overlay{
                 position: absolute;
                 display: block;
@@ -43,13 +46,14 @@
 
             .overlay {
                 display: none;
-                height: 90px;
+                height: 130px;
                 width: 100%;
-                padding: 10px;
+                padding: 20px 30px;
                 background-color: black;
                 .btn-watch {
                     cursor: pointer;
                     margin-top: 20px;
+                    padding: 15px 30px;
                     &:hover {
                         background-color: red;
                         color: white;
