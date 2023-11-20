@@ -1,0 +1,28 @@
+header{
+	.fixed{
+		top: 0;
+		z-index: 999;
+		height: 80px;
+		position: fixed;
+		width: 100%;
+		background-image:
+			linear-gradient(to bottom,
+				#000000 0px,
+				#000000 .01vh,
+				#2F3133 7vh,
+				#2F3133 100%);;
+	}
+	.container {
+        height: 100%;
+        align-items: center;
+		.logo {
+			width: 180px;
+            cursor: pointer;
+		}
+        .user {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+	}
+}

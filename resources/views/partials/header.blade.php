@@ -1,10 +1,17 @@
+
+
 <header>
-    <div class="container d-flex justify-content-between ">
-        <div>
-            <h1>LOGO</h1>
-        </div>
-        <div>
-            <h1>USER</h1>
-        </div>
-    </div>
+	<div class="fixed">
+		<div class="container d-flex justify-content-between ">
+			<div class="logo">
+                <a href="/">
+                    <img src="/logo/boolean-logo.png" alt="Logo">
+                </a>
+			</div>
+			<div class="user">
+				<i class="fa-regular fa-user"></i>
+			</div>
+		</div>
+	</div>
 </header>
+

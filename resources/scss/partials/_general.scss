@@ -3,11 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 img {
     width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    background-color: #2F3133;
+    color: #C4C4C4;
 }
 
 .container {
     width: 95%;
     margin: 0 auto;
+}
+
+.btn-watch {
+    padding: 10px 20px;
+    background: none;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
 }
